@@ -1,0 +1,18 @@
+{
+  "name": "team-match-sports-static",
+  "version": "1.0.0",
+  "description": "Serve TeamMatch static HTML file",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "latest"
+  },
+  "keywords": [
+    "static",
+    "html",
+    "team-match"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
