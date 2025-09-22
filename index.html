@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TeamMatch: Sports Team Finder & Organizer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f5f7fa; color: #1a2a3a; }
+    header { background: #126; color: #fff; padding: 1.5rem 2rem; }
+    nav a { color: #ffdd57; margin: 0 1rem; text-decoration: none; font-weight: 500; }
+    .hero { padding: 3rem 2rem 2rem; text-align: center; background: #2c4560; color: #fff; }
+    .features { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; padding: 2rem; }
+    .feature { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 1.5rem; flex: 1 1 250px; max-width: 300px; }
+    footer { background: #222; color: #fff; text-align: center; padding: 1rem 0; }
+    @media (max-width: 800px) {
+      .features { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TeamMatch</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Teams</a>
+      <a href="#">Events</a>
+      <a href="#">Login</a>
+      <a href="#">Sign Up</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Find & Organize Local Sports Teams and Events</h2>
+    <p>
+      TeamMatch connects sports enthusiasts to nearby teams, games, and activities.
+      Create profiles, join teams, schedule matches, and manage your sports life — all in one place.
+    </p>
+  </section>
+  <section class="features">
+    <div class="feature">
+      <h3>🔒 User Profiles & Login</h3>
+      <p>Create an account to join or manage teams and events.</p>
+    </div>
+    <div class="feature">
+      <h3>🏆 Team Management</h3>
+      <p>Create a team, invite members, and manage your roster with ease.</p>
+    </div>
+    <div class="feature">
+      <h3>📆 Event Scheduling</h3>
+      <p>Set up matches and practices, view your calendar, and never miss a game.</p>
+    </div>
+    <div class="feature">
+      <h3>⚙️ Search & Filter</h3>
+      <p>Find teams and events by sport, location, or skill level.</p>
+    </div>
+    <div class="feature">
+      <h3>🛡️ Admin Panel</h3>
+      <p>Admins can approve teams and review match results for community quality.</p>
+    </div>
+    <div class="feature">
+      <h3>💬 Team Messaging</h3>
+      <p>Post announcements or send reminders to your team members.</p>
+    </div>
+  </section>
+  <footer>
+    © 2025 TeamMatch — Built with Next.js, TypeScript, Prisma, and PostgreSQL
+  </footer>
+</body>
+</html>
