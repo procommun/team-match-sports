@@ -1,18 +1,11 @@
 {
-  "name": "team-match-sports-static",
+  "name": "team-sports",
   "version": "1.0.0",
-  "description": "Serve TeamMatch static HTML file",
+  "description": "Simple HTML project with Vite for preview",
   "scripts": {
-    "start": "serve ."
+    "dev": "vite"
   },
   "devDependencies": {
-    "serve": "latest"
-  },
-  "keywords": [
-    "static",
-    "html",
-    "team-match"
-  ],
-  "author": "Your Name",
-  "license": "MIT"
+    "vite": "^5.0.0"
+  }
 }
